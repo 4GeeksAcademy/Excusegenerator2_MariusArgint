@@ -1,7 +1,7 @@
-let who = ['A unicorn', 'My cat', 'An alien', 'A ninja', 'My little brother'];
-let action = ['stole', 'destroyed', 'hid', 'vaporized', 'teleported'];
-let what = ['my homework', 'my laptop', 'my backpack', 'my project', 'my notes'];
-let when = ['at midnight', 'during a storm', 'while I was daydreaming', 'in another dimension', 'during the eclipse'];
+let who = ['My boss', 'A crazy seagull', 'A robot from the future', 'My jiu-jitsu coach', 'The neighbor’s goat'];
+let action = ['ate', 'hijacked', 'deleted', 'kidnapped', 'accidentally shredded'];
+let what = ['my presentation', 'my gym bag', 'my winning lottery ticket', 'my favorite hoodie', 'my bike'];
+let when = ['right before I left home', 'while I was showering', 'during pizza night', 'as I blinked', 'just when I needed it the most'];
 
 function generateExcuse() {
     let randomWho = who[Math.floor(Math.random() * who.length)];
